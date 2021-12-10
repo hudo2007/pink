@@ -1,0 +1,90 @@
+name: Pink
+type: profile
+description: 'Install with Pink Distribution used features pre-configured.'
+core: 8.x
+
+distribution:
+  name: Pink
+  install:
+    theme: starter_theme
+  langcode: fr
+
+# Modules to install to support the profile.
+install:
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - config
+  - config_translation
+  - config_update
+  - content_translation
+  - contextual
+  - ctools
+  - datetime
+  - datetime_range
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity
+  - field
+  - field_ui
+  - file
+  - filter
+  - help
+  - history
+  - image
+  - language
+  - layout_builder
+  - layout_discovery
+  - link
+  - locale
+  - media
+  - media_library
+  - menu_link_content
+  - menu_ui
+  - migrate
+  - migrate_api
+  - migrate_drupal
+  - migrate_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - search
+  - serialization
+  - settings_tray
+  - shortcut
+  - statistics
+  - system
+  - taxonomy
+  - telephone
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views
+  - views_ui
+  - workflows
+
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+  - node
+  - block
+  - views
+  - metatag
+  - yoast_seo
+
+# List any themes that should be installed as part of the profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+  - adminimal_theme
+  - starter_theme
+  - olema

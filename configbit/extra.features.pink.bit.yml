@@ -1,0 +1,83 @@
+# ==============================================================================
+# List of extra pink features, which they will be listed in the
+# Extra components form, when we install pink.
+# ==============================================================================
+config_bit:
+  type: list
+  for: pink.info.yml
+  when:
+    show_extra_features: true
+    list:
+      dependencies:
+        page:
+          title: "Page"
+          description: "Adds an integration with the Page feature."
+          selected: true
+          config_form: false
+          enabled: true
+        news:
+          title: "News"
+          description: "Adds an integration with the News feature."
+          selected: false
+          config_form: false
+          enabled: true
+        press_release:
+          title: "Press Release"
+          description: "Adds an integration with the Press Release feature."
+          selected: false
+          config_form: false
+          enabled: true
+        event:
+          title: "Event"
+          description: "Adds an integration with the Event feature."
+          selected: false
+          config_form: false
+          enabled: true
+        placelocator:
+          title: "Place locator"
+          description: "Adds an integration with the Place locator feature."
+          selected: false
+          config_form: false
+          enabled: true
+        landing:
+          title: "Landing"
+          description: "Adds an integration with the Landing feature."
+          selected: false
+          config_form: false
+          enabled: false
+        job:
+          title: "Job"
+          description: "Adds an integration with the Job feature."
+          selected: false
+          config_form: false
+          enabled: true
+        newsletter:
+          title: "Newsletter"
+          description: "Adds an integration with the Newsletter feature."
+          selected: false
+          config_form: false
+          enabled: true
+        media_center:
+          title: "Media Center"
+          description: "Adds an integration with the Media Center feature."
+          selected: false
+          config_form: false
+          enabled: false
+        testimonial:
+          title: "Testimonial"
+          description: "Adds an integration with the Testimonial feature."
+          selected: false
+          config_form: false
+          enabled: true
+        investors:
+          title: "Investors"
+          description: "Adds an integration with the Investors feature."
+          selected: false
+          config_form: false
+          enabled: true
+        share_price:
+          title: "Share Price"
+          description: "Adds an integration with the Share Price feature."
+          selected: false
+          config_form: false
+          enabled: true
