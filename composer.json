@@ -54,6 +54,7 @@
         "drupal/fixed_block_content": "^1.0",
         "drupal/geocoder": "^3.0",
         "drupal/geolocation": "^3.0",
+        "drupal/google_analytics_counter": "^3.0@alpha",
         "drupal/google_analytics_reports": "^3.0@beta",
         "drupal/google_tag": "^1.2",
         "drupal/iframe": "^1.9",

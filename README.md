@@ -126,6 +126,7 @@ Pink is a Drupal 8 install profile to used features pre-configured.
   - geolocation_address
   - geolocation_google_maps
   - google_analytics
+  - google_analytics_counter
   - google_analytics_reports
   - google_analytics_reports_api
   - google_tag
